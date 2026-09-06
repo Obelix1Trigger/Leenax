@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Leenax — AI Assistant</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="stars"></div><div class="grid"></div>
+
+<header class="navbar">
+  <a class="logo" href="#home"><span class="logo-orb">L</span><span>LEENAX</span></a>
+  <nav><a class="active" href="#home">Home</a><a href="#features">Features</a><a href="#brain">AI Brain</a><a href="#chat">Chat</a><a href="#about">About</a></nav>
+  <a class="nav-button" href="#chat">LAUNCH CHAT ↗</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span></span> WELCOME TO THE FUTURE</div>
+    <p class="mini-label">YOUR PERSONAL AI ASSISTANT</p>
+    <h1>I AM<br><strong>LEENAX</strong></h1>
+    <p class="hero-text">An intelligent digital companion built to think, learn and help. Ask questions, explore ideas and build your future with your own AI.</p>
+    <div class="hero-actions"><a class="btn primary" href="#chat">✦ TALK TO LEENAX</a><a class="btn secondary" href="#features">EXPLORE FEATURES →</a></div>
+    <div class="hero-status"><span class="status-dot"></span><span id="heroOnline">LEENAX ONLINE</span><i></i><span>LOCAL AI CORE</span></div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="energy-core"><div class="core-ring ring-a"></div><div class="core-ring ring-b"></div><div class="core-ring ring-c"></div><div class="core-center">L</div></div>
+    <div class="holo-card"><span>LEENAX SYSTEM</span><b id="systemStatus">ONLINE ●</b><small>Brain: <em>Starter Core</em></small><small>Memory: <em id="memoryCount">0</em> entries</small><div class="meter"><i></i></div></div>
+    <div class="floating-chip chip-one">AI • ACTIVE</div><div class="floating-chip chip-two">MEMORY ✓</div><div class="floating-chip chip-three">VOICE ✓</div>
+  </div>
+</section>
+
+<section class="feature-strip" id="features">
+<article class="feature-card"><div class="feature-icon">🧠</div><div><h3>SMART BRAIN</h3><p>A modular brain we can upgrade with a real model later.</p></div></article>
+<article class="feature-card"><div class="feature-icon">◉</div><div><h3>VOICE ASSISTANT</h3><p>Use your browser microphone for voice input.</p></div></article>
+<article class="feature-card"><div class="feature-icon">⌁</div><div><h3>PERSISTENT MEMORY</h3><p>Conversation history is stored locally in your project.</p></div></article>
+<article class="feature-card"><div class="feature-icon">◇</div><div><h3>CREATOR MODE</h3><p>Built as your own project, ready for more abilities.</p></div></article>
+</section>
+
+<section class="split-section" id="brain">
+  <div class="brain-visual"><div class="brain-grid"></div><div class="brain-symbol">✦</div><div class="brain-line line-1"></div><div class="brain-line line-2"></div><div class="brain-line line-3"></div><div class="brain-label label-1">REASONING</div><div class="brain-label label-2">MEMORY</div><div class="brain-label label-3">LEARNING</div></div>
+  <div class="section-copy"><div class="eyebrow"><span></span> THE LEENAX CORE</div><h2>BUILT TO <span>THINK.</span><br>DESIGNED TO HELP.</h2><p>Leenax now has a real local web backend. The next stages are to give the brain stronger reasoning, tools, voice and eventually a model/API.</p><ul class="checks"><li>✓ Website connected to Python</li><li>✓ Chat API endpoint</li><li>✓ Persistent local memory</li><li>✓ Ready for a real AI model</li></ul><a class="btn secondary" href="#chat">ENTER THE CORE →</a></div>
+</section>
+
+<section class="chat-section" id="chat">
+  <div class="chat-heading"><div><div class="eyebrow"><span></span> LIVE INTERFACE</div><h2>CHAT WITH <span>LEENAX</span></h2></div><div class="live"><i></i><span id="liveText">SYSTEM ONLINE</span></div></div>
+  <div class="chat-window">
+    <div class="chat-top"><div class="avatar">L</div><div><b>Leenax</b><small>Local AI assistant</small></div><span class="online">●</span></div>
+    <div class="messages" id="messages"><div class="message leenax"><span class="msg-avatar">L</span><div><b>Leenax</b><p>Hello! I'm Leenax. My website is connected to my Python brain. What are we building today?</p></div></div></div>
+    <form class="chat-input" id="chatForm"><input id="chatInput" autocomplete="off" placeholder="Talk to Leenax..."><button type="submit">➤</button></form>
+    <div class="chat-tools"><button type="button" id="voiceBtn">◉ VOICE INPUT</button><button type="button" id="clearBtn">⌫ CLEAR CHAT</button><span>Python backend • Local memory</span></div>
+  </div>
+</section>
+
+<section class="stats"><div><b>01</b><span>LOCAL BRAIN</span></div><div><b id="statMemory">0</b><span>MEMORY ENTRIES</span></div><div><b>24/7</b><span>READY</span></div><div><b>100%</b><span>YOUR PROJECT</span></div></section>
+
+<section class="about" id="about"><div><div class="eyebrow"><span></span> ABOUT LEENAX</div><h2>THE FUTURE STARTS<br><span>WITH AN IDEA.</span></h2></div><p>Leenax is your personal AI assistant project, created by <strong>Obelix Trigger</strong>. We are building it step by step — interface first, backend next, intelligence after that.</p></section>
+</main>
+
+<footer><div class="footer-brand"><span class="logo-orb">L</span><b>LEENAX</b><p>Your AI. Your future.</p></div><div class="footer-links"><a href="#home">Home</a><a href="#features">Features</a><a href="#brain">AI Brain</a><a href="#chat">Chat</a></div><div class="footer-status"><i></i> ALL SYSTEMS OPERATIONAL</div><div class="copyright">© 2026 Leenax AI • Built by Obelix Trigger</div></footer>
+
+<script>
+const form=document.getElementById("chatForm"),input=document.getElementById("chatInput"),messages=document.getElementById("messages");
+const memoryCount=document.getElementById("memoryCount"),statMemory=document.getElementById("statMemory");
+
+function escapeHtml(t){return t.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));}
+function addMessage(type,text){
+  const user=type==="user";
+  messages.insertAdjacentHTML("beforeend",user
+    ? `<div class="message user"><div><b>You</b><p>${escapeHtml(text)}</p></div><span class="msg-avatar user-avatar">U</span></div>`
+    : `<div class="message leenax"><span class="msg-avatar">L</span><div><b>Leenax</b><p>${escapeHtml(text)}</p></div></div>`);
+  messages.scrollTop=messages.scrollHeight;
+}
+async function refreshStatus(){
+  try{
+    const r=await fetch("/api/status"); const d=await r.json();
+    memoryCount.textContent=d.memory; statMemory.textContent=d.memory;
+  }catch(e){}
+}
+form.addEventListener("submit",async e=>{
+  e.preventDefault(); const text=input.value.trim(); if(!text)return;
+  addMessage("user",text); input.value="";
+  addMessage("leenax","Thinking...");
+  const thinking=messages.lastElementChild;
+  try{
+    const r=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:text})});
+    const d=await r.json();
+    thinking.querySelector("p").textContent=d.reply;
+    memoryCount.textContent=d.memory_count;statMemory.textContent=d.memory_count;
+  }catch(err){thinking.querySelector("p").textContent="I can't reach my Python brain. Make sure the Leenax server is running.";}
+});
+document.getElementById("clearBtn").onclick=()=>{messages.innerHTML="";addMessage("leenax","Chat cleared. I'm ready.");};
+document.getElementById("voiceBtn").onclick=()=>{
+  const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!Recognition){alert("Voice input is not supported in this browser.");return;}
+  const r=new Recognition();r.lang="en-US";r.onstart=()=>document.getElementById("liveText").textContent="LISTENING...";
+  r.onresult=e=>input.value=e.results[0][0].transcript;r.onend=()=>document.getElementById("liveText").textContent="SYSTEM ONLINE";r.start();
+};
+refreshStatus();
+</script>
+</body>
+</html>
